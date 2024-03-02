@@ -1,0 +1,86 @@
+createPayment
+{
+ "paymentID" => "TR0011Tu4YzHd1709284630408"
+  "bkashURL" => "https://sandbox.payment.bkash.com/?paymentId=TR0011Tu4YzHd1709284630408&hash=oVcjfOlXa*QKZPqdW6(w*9FZ18o8.UYY4j2V9jyB-KEXy!Q-MyyMpTrtSMsesLs2AANaXUzJ)wuUGz6Tlhz ▶"
+  "callbackURL" => "http://127.0.0.1:8000/bkash/callback"
+  "successCallbackURL" => "http://127.0.0.1:8000/bkash/callback?paymentID=TR0011Tu4YzHd1709284630408&status=success"
+  "failureCallbackURL" => "http://127.0.0.1:8000/bkash/callback?paymentID=TR0011Tu4YzHd1709284630408&status=failure"
+  "cancelledCallbackURL" => "http://127.0.0.1:8000/bkash/callback?paymentID=TR0011Tu4YzHd1709284630408&status=cancel"
+  "amount" => "430"
+  "intent" => "sale"
+  "currency" => "BDT"
+  "paymentCreateTime" => "2024-03-01T15:17:10:409 GMT+0600"
+  "transactionStatus" => "Initiated"
+  "merchantInvoiceNumber" => "65e19d14ebbd9"
+  "statusCode" => "0000"
+  "statusMessage" => "Successful"
+}
+
+executepayment
+{
+    "paymentID": "TR0011r8fFVZm1706535049847",
+    "trxID": "BAT40GNA64",
+    "transactionStatus": "Completed",
+    "amount": "632",
+    "currency": "BDT",
+    "intent": "sale",
+    "paymentExecuteTime": "2024-01-29T19:31:16:483 GMT+0600",
+    "merchantInvoiceNumber": "65b7a8888630d",
+    "payerReference": "65b7a8888630d",
+    "customerMsisdn": "01619777283",
+    "statusCode": "0000",
+    "statusMessage": "Successful"
+}
+
+Query payment
+{
+ "paymentID" => "TR0011XKutaI71709372739526"
+  "mode" => "0011"
+  "paymentCreateTime" => "2024-03-02T15:45:39:526 GMT+0600"
+  "amount" => "300"
+  "currency" => "BDT"
+  "intent" => "sale"
+  "merchantInvoice" => "65e2f5418601a"
+  "transactionStatus" => "Initiated"
+  "verificationStatus" => "Complete"
+  "payerReference" => "65e2f5418601a"
+  "statusCode" => "0000"
+  "statusMessage" => "Successful"
+}
+
+Search Payment
+{
+    "trxID": "BC260GV7LG",
+    "initiationTime": "2024-03-02T12:42:30:000 GMT+0600",
+    "completedTime": "2024-03-02T12:42:30:000 GMT+0600",
+    "transactionType": "bKash Tokenized Checkout via API",
+    "customerMsisdn": "01619777283",
+    "transactionStatus": "Completed",
+    "amount": "534",
+    "currency": "BDT",
+    "organizationShortCode": "50022",
+    "statusCode": "0000",
+    "statusMessage": "Successful"
+}
+====================Test information for Bkash=========================
+
+Phone Number: 01619777283
+otp: 123456
+Pin: 12121
+
+====================Test information for Bkash=========================
+এখনই অর্থ প্রদানের জন্য অনুগ্রহ করে নিম্নলিখিত পদক্ষেপগুলি ব্যবহার করুন:
+*247# ডায়াল করে বিকাশ মেনুতে যান
+'3' টিপে 'পেমেন্ট' বিকল্প বেছে নিন
+আমাদের মার্চেন্ট ওয়ালেট নম্বর লিখুন: 01896060828
+আপনাকে যে পরিমাণ অর্থ প্রদান করতে হবে: xxxx
+আপনার পেমেন্টের বিপরীতে একটি রেফারেন্স লিখুন:  যেমন: 1
+কাউন্টার নম্বর লিখুন: 1
+এখন নিশ্চিত করতে আপনার পিন লিখুন: xxxx
+সম্পন্ন! আপনি একটি নিশ্চিতকরণ SMS পাবেন
+নিচের ফর্মে আপনার বিকাশ ওয়ালেট নম্বর  জমা দিন।
+
+
+
+
+
